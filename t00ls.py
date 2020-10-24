@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.WARNING,
 # logging.error('this is an loggging error message')
 # logging.critical('this is a loggging critical message')
 
-username = os.environ['USERNAME']       # 帐号
+username = os.environ['USERNAME']       # 帐号.
 password = os.environ['PASSWORD']       # 密码MD5 32位(小写)
 question_num = os.environ['QUESTION']   # 安全提问 参考下面
 question_answer = os.environ['ANSWER']  # 安全提问答案
